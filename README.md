@@ -13,12 +13,12 @@ Launch the nut-nsp-server docker container with the following command:
 
 ``` 
 docker run -d \
-    --name=nut-server \
+    --name=nut-nspserver \
     -p 9000:9000 \
     -v $GAMES:/games:rw \
     -e ID=$ID \
     -e PASSWORD=$PASSWORD \
-    ramdockerapp/nut-server
+    mrgs83/nut-nsp-server
 ```
 
 Where:
