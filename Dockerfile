@@ -1,6 +1,6 @@
 FROM python:latest
 
-MAINTAINER marcel@marquez.fr
+MAINTAINER info@mrgs.link
 
 ARG branch_name=master
 
