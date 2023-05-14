@@ -14,6 +14,7 @@ Launch the nut-nsp-server docker container with the following command:
 ``` 
 docker run -d \
     --name=nut-nsp-server \
+    -e UMASK=022 \
     -p 9000:9000 \
     -v $GAMES:/games:rw \
     -e ID=$ID \
